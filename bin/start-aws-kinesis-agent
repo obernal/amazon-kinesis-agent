@@ -2,7 +2,7 @@
 
 MIN_JAVA_VERSION=1.7
 JAVA_START_HEAP=${JAVA_START_HEAP:-32m}
-JAVA_MAX_HEAP=${JAVA_MAX_HEAP:-512m}
+JAVA_MAX_HEAP=${JAVA_MAX_HEAP:-1g}
 
 function _debug_msg() {
   if [[ -n "${_SCRIPT_DEBUG}" ]]; then
